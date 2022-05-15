@@ -53,5 +53,4 @@ def current():
 
 if __name__ == '__main__':
     #app.run(host=parser.get('connect', 'ip'),port = parser.get('connect', 'port'), debug=True)
-    #app.run(host="0.0.0.0", port=8000, debug=True)
-    app.run(host=parser.get('connect', 'ip'),port = parser.get('connect', 'port'), debug=True)
+    app.run(host="0.0.0.0", port=8000, debug=True)
