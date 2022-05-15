@@ -13,5 +13,5 @@ RUN pip3 install pyowm
 RUN pip3 install flask
 
 RUN git clone https://github.com/KOKEPOK/nginx
-
+WORKDIR /home/app/nginx/
 CMD export OWM_APP_KEY=e5a734b092732dadf1c0ae549afeb79f && python3 ./nginx/weather_api.py 2
