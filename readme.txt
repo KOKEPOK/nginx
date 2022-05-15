@@ -19,3 +19,5 @@ sudo vi /etc/nginx/nginx.conf
 
 
 настройки все через убунту20
+браузер:
+http://127.0.0.1/v1/forecast/city?q=Moscow
