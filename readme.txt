@@ -17,3 +17,5 @@ nginx -s reload
 sudo rm -rf /etc/nginx/.nginx.conf.swp
 sudo vi /etc/nginx/nginx.conf
 
+
+настройки все через убунту20
